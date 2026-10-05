@@ -25,19 +25,22 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ x ] Describe the game's purpose.
+- [ x ] Detail which bugs you found.
+- [ x ] Explain what fixes you applied.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User enters a guess of 89
+2. Game returns "Too High"
+3. Points are deducted accordinglys
+3. User enters a guess of 26, and the game shows "Too Low"
+4. Score updates correctly after each guess for however many attempts the user makes
+5. Game ends after the correct guess
+6. User selects a new game or changes difficulty
+7. A new guess is generated and state reset for the new round.
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
